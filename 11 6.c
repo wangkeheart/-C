@@ -1,4 +1,4 @@
-//11页第六题
+//11椤电鍏
 #include "stdio.h"
 int main()
 {
@@ -6,7 +6,7 @@ int main()
 	float b;
 	float c;
 	float d;
-	printf("请输入一个整数和一个浮点数，并求出二者的倒数:\n");
+	printf("璇疯緭鍏ヤ竴涓暣鏁板拰涓�涓诞鐐规暟锛屽苟姹傚嚭浜岃�呯殑鍊掓暟:\n");
 	scanf("%f,%f",&a,&b);
 	c=1/a;
 	d=1/b;

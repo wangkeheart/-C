@@ -3,7 +3,7 @@ int main()
 {
 	int a,b,c;
 	int i,j,k;
-	printf("ÇëÊäÈën:");
+	printf("è¯·è¾“å…¥n:");
 	scanf("%d",&a);
 	for(b=1;b<=a;b++)
 	{

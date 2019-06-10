@@ -7,7 +7,7 @@ int main()
 	for(d=0;d<b;d++)
 		for(e=0;e<c;e++)
 			scanf("%d",&a[d][e]);
-	printf("%dÐÐ%dÁÐ¾ØÕóÎª:\n",b,c);
+	printf("%dè¡Œ%dåˆ—çŸ©é˜µä¸º:\n",b,c);
 	for(d=0;d<b;d++)
 		for(e=0;e<c;e++)
 		{
@@ -18,7 +18,7 @@ int main()
 			printf("%d ",a[d][e]);
 		}
 
-	printf("\nÃ¿ÐÐ×î´óÔªËØ¼°ÆäÁÐºÅ:\n");
+	printf("\næ¯è¡Œæœ€å¤§å…ƒç´ åŠå…¶åˆ—å·:\n");
 	for(d=0;d<b;d++)
 	{
 		for(e=0;e<c;e++)
@@ -32,6 +32,6 @@ int main()
 		temp+=a[d][f];
 		f=0;
 	}
-	printf("¸÷ÐÐ×î´óÔªËØµÄºÍÎª:%d\n",temp);
+	printf("å„è¡Œæœ€å¤§å…ƒç´ çš„å’Œä¸º:%d\n",temp);
 	return 0;
 }

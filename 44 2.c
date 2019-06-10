@@ -1,7 +1,7 @@
 #include "stdio.h"
 long fun(long num)
 {
-	long k=1; // ¸³¸øËü³õÖµ¡£
+	long k=1; // èµ‹ç»™å®ƒåˆå€¼ã€‚
 	do{
 		k*=num%10;
 		num=num/10;

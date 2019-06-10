@@ -12,9 +12,9 @@ int main()
 	s1[i]='\0';
 	for(i=0;s1[i]!='\0';i++)
 		;
-	printf("×Ö·û´®s1µÄ³¤¶ÈÎª£º%d\n",i);
-	printf("×Ö·û´®s1µÄ³¤¶ÈÎª£º%d\n",strlen(s1));
-	printf("×Ö·û´®s2µÄ³¤¶ÈÎª£º%d\n",strlen(s2));
-	printf("×Ö·û´®s3µÄ³¤¶ÈÎª£º%d\n",strlen(s3));
+	printf("å­—ç¬¦ä¸²s1çš„é•¿åº¦ä¸ºï¼š%d\n",i);
+	printf("å­—ç¬¦ä¸²s1çš„é•¿åº¦ä¸ºï¼š%d\n",strlen(s1));
+	printf("å­—ç¬¦ä¸²s2çš„é•¿åº¦ä¸ºï¼š%d\n",strlen(s2));
+	printf("å­—ç¬¦ä¸²s3çš„é•¿åº¦ä¸ºï¼š%d\n",strlen(s3));
 	return 0;
 }

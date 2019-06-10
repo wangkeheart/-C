@@ -7,7 +7,7 @@
 		zh=30;ch=31;
 		while ("ture")//
 {//
-		printf("ÇëÊäÈëÓĞĞ§µÄ Äê-ÔÂ-ÈÕ£º\n");
+		printf("è¯·è¾“å…¥æœ‰æ•ˆçš„ å¹´-æœˆ-æ—¥ï¼š\n");
 		scanf("%d-%d-%d",&a,&b,&c);
 		switch(b)
 		{
@@ -32,7 +32,7 @@
 		else
 		o=28;
 		break;
-		default:printf("ÊäÈë´íÎó!ÇëÖØĞÂÊäÈë\n");
+		default:printf("è¾“å…¥é”™è¯¯!è¯·é‡æ–°è¾“å…¥\n");
 		}
 		if(b==2)	
 		d=zh+c;
@@ -59,9 +59,9 @@
 		else if(b==12)
 		d=6*zh+o+4*ch+c;
 		if(c>o)
-		printf("ÊäÈë´íÎó\n");
+		printf("è¾“å…¥é”™è¯¯\n");
 		else
-		printf("µÚ%dÌì¡£\n",d);
+		printf("ç¬¬%då¤©ã€‚\n",d);
 	}//
 	return 0;
 }

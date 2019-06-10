@@ -4,7 +4,7 @@ int main()
 {
 	int a[pi],c,d,e,f=0,h;
 	float g;
-	printf("请输入评委的评分:");
+	printf("璇疯緭鍏ヨ瘎濮旂殑璇勫垎:");
 	for(c=0;c<pi;c++)
 	{
 		scanf("%d",&a[c]);
@@ -17,7 +17,7 @@ int main()
 				a[h]=a[h+1];
 				a[h+1]=e;
 			}
-	printf("从高分到低分:");
+	printf("浠庨珮鍒嗗埌浣庡垎:");
 	for(c=0;c<pi;c++)
 	{
 		printf("%3d",a[c]);
@@ -28,7 +28,7 @@ int main()
 	}
 	g=(float)f/8;
 	printf("\n");
-	printf("该选手最后得分为:%.2f",g);
+	printf("璇ラ�夋墜鏈�鍚庡緱鍒嗕负:%.2f",g);
 	printf("\n");
 	return 0;
 }

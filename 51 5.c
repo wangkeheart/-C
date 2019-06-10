@@ -13,7 +13,7 @@ void fun(int a[],int n)
 		a[c]=a[d];
 		a[d]=temp;
 	}
-	//╬ыр╩╥╢хЩ ртобй╧сцц╟ещеепР╥╗║ё
+	//Д╦╬Д╦─Е▐█Д╦┴ Д╩╔Д╦▀Д╫©Г■╗Е├▓ФЁ║Ф▌▓Е╨▐ФЁ∙Ц─┌
 	/*
 	for(c=1;c<n;c++)
 		for(e=0;e<n-c;e++)
@@ -28,12 +28,12 @@ void fun(int a[],int n)
 void main()
 {
 	int a[N]={9,6,8,3,-1},i,m=5;
-	printf("еепРг╟╣дйЩ╬щ:");
+	printf("Ф▌▓Е╨▐Е┴█Г └Ф∙╟Ф█╝:");
 	for(i=0;i<m;i++)
 		printf("%d ",a[i]);
 	printf("\n");
 	fun(a,m);
-	printf("еепР╨С╣дйЩ╬щ:");
+	printf("Ф▌▓Е╨▐Е░▌Г └Ф∙╟Ф█╝:");
 	for(i=0;i<m;i++)
 		printf("%d ",a[i]);
 	printf("\n");

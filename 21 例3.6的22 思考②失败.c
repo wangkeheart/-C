@@ -5,7 +5,7 @@ void main()
 		int num,i;
 		int sq;
 		i=2;
-		printf("ÇëÊäÈëÒ»¸ö´óÓÚ1µÄÕûÊý£º");
+		printf("è¯·è¾“å…¥ä¸€ä¸ªå¤§äºŽ1çš„æ•´æ•°ï¼š");
 		scanf("%d",&num);
 		num=num;
 		while(num>1)
@@ -13,15 +13,15 @@ void main()
 	
 		sq=(int)sqrt(num);
 		while(i<=sq)
-		//if(num%i==0)    ÒÉÎÊ£¿
+		//if(num%i==0)    ç–‘é—®ï¼Ÿ
 		break;
 		if(i<=sq)
-		printf("%d²»ÊÇËØÊý¡£\n",num);
+		printf("%dä¸æ˜¯ç´ æ•°ã€‚\n",num);
 		else
-		printf("%dÊÇËØÊý¡£ \n",num);
-		printf("ÇëÊäÈëÒ»¸öÕýÕûÊýnum(ÊäÈë²»´óÓÚµÄ1µÄÕûÊýÍË³ö):");
+		printf("%dæ˜¯ç´ æ•°ã€‚ \n",num);
+		printf("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°num(è¾“å…¥ä¸å¤§äºŽçš„1çš„æ•´æ•°é€€å‡º):");
 		scanf("%d",&num);
 }
 	
-		printf("ÍË³ö¡£\n");
+		printf("é€€å‡ºã€‚\n");
 }

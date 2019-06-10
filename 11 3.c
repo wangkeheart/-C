@@ -1,12 +1,12 @@
-//11Ò³µÚÈıÌâ  ĞŞ¸Äºó
+//11é¡µç¬¬ä¸‰é¢˜  ä¿®æ”¹å
 #include "stdio.h"
 int main(void)
 {
 	int lOperator,rOperator;
 	int nResult1;
-	printf("ÇëÊäÈëÁ½¸öÕûÊı£¬²¢¼ÆËãËüÃÇµÄ²î£º\n");
+	printf("è¯·è¾“å…¥ä¸¤ä¸ªæ•´æ•°ï¼Œå¹¶è®¡ç®—å®ƒä»¬çš„å·®ï¼š\n");
 	scanf("%d,%d",&lOperator,&rOperator);
 	nResult1=lOperator-rOperator;
-	printf("%d-%d=%d",lOperator,rOperator,nResult1); //Ô­À´´ËĞĞÓĞÎó£¬¸ü¸Ä
+	printf("%d-%d=%d",lOperator,rOperator,nResult1); //åŸæ¥æ­¤è¡Œæœ‰è¯¯ï¼Œæ›´æ”¹
 	return 0;
 }

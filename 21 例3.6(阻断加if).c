@@ -5,7 +5,7 @@ void main()
 {
 	int num,i;
 	int sq;
-	printf("ÇëÊäÈëÒ»¸ö´óÓÚ1µÄÕûÊı£º");
+	printf("è¯·è¾“å…¥ä¸€ä¸ªå¤§äº1çš„æ•´æ•°ï¼š");
 	scanf("%d",&num);
 	do
 	{
@@ -18,14 +18,14 @@ void main()
 		if(num%i==0)
 		break;
 		if(i<=sq)
-		printf("%d²»ÊÇËØÊı¡£\n",num);
+		printf("%dä¸æ˜¯ç´ æ•°ã€‚\n",num);
 		else
-		printf("%dÊÇËØÊı¡£ \n",num);
-		printf("ÇëÊäÈëÒ»¸öÕıÕûÊınum(ÊäÈë²»´óÓÚµÄ1µÄÕûÊıÍË³ö):");
+		printf("%dæ˜¯ç´ æ•°ã€‚ \n",num);
+		printf("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°num(è¾“å…¥ä¸å¤§äºçš„1çš„æ•´æ•°é€€å‡º):");
 		scanf("%d",&num);
 		}
 		
 	}
 	while(num>1);
-		printf("ÍË³ö¡£\n");
+		printf("é€€å‡ºã€‚\n");
 }

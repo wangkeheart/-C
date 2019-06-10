@@ -1,4 +1,4 @@
-//ÊµÑéÖ¸µ¼ 20Ò³ µÚËÄÌâ
+//å®éªŒæŒ‡å¯¼ 20é¡µ ç¬¬å››é¢˜
 #include "stdio.h"
 int main()
 {
@@ -12,7 +12,7 @@ int main()
 	else if(ch=='*')
 	a=mun1*mun2;
 	else if(ch=='/')
-	a=(mun2==0)?(printf("ÊäÈë´íÎó")):(mun1/mun2);
+	a=(mun2==0)?(printf("è¾“å…¥é”™è¯¯")):(mun1/mun2);
 	printf("%d%c%d=%d",mun1,ch,mun2,a);
 	return 0;
 }

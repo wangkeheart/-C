@@ -2,7 +2,7 @@
 int main()
 {
 	int a,b,c;     // a=n;b=i;c=j
-	printf("ÇëÊäÈën:");
+	printf("è¯·è¾“å…¥n:");
 	scanf("%d",&a);
 	for(b=1;b<=a;b++)
 	{

@@ -1,15 +1,15 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "string.h"
-int h(char* a,char* b) //Ö¸ÏòÏàÓ¦Êı×é
+int h(char* a,char* b) //æŒ‡å‘ç›¸åº”æ•°ç»„
 {
 	int f=strlen(b);
 	int k=0;int i;
-	while(a=strstr(a,b))       //strstr(str1,str2) º¯ÊıÓÃÓÚÅĞ¶Ï×Ö·û´®str2ÊÇ·ñÊÇstr1µÄ×Ó´®¡£Èç¹ûÊÇ£¬
-	{                         //Ôò¸Ãº¯Êı·µ»Østr2ÔÚstr1ÖĞ"Ê×´Î³öÏÖµÄµØÖ·"×¢ÒâÕâ·Ç³£·Ç³£ÖØÒª£»·ñÔò£¬·µ»ØNULL.
+	while(a=strstr(a,b))       //strstr(str1,str2) å‡½æ•°ç”¨äºåˆ¤æ–­å­—ç¬¦ä¸²str2æ˜¯å¦æ˜¯str1çš„å­ä¸²ã€‚å¦‚æœæ˜¯ï¼Œ
+	{                         //åˆ™è¯¥å‡½æ•°è¿”å›str2åœ¨str1ä¸­"é¦–æ¬¡å‡ºç°çš„åœ°å€"æ³¨æ„è¿™éå¸¸éå¸¸é‡è¦ï¼›å¦åˆ™ï¼Œè¿”å›NULL.
 		//system("pause");
 		k++;
-		a=a+f;  //×¢Òâ
+		a=a+f;  //æ³¨æ„
 	}
 	printf("%d",i);system("pause");
 	return k;//---------------------------
@@ -21,7 +21,7 @@ int main()//                             |
 	gets(a);//                           |
 	printf("Input a substring:");//      |
 	gets(b);                       //    |
-	printf("Output:count=%d\n",h(a,b));//---| °ÑÖµ¸øÁËh(a,b);
+	printf("Output:count=%d\n",h(a,b));//---| æŠŠå€¼ç»™äº†h(a,b);
 	return 0;
 	
 }

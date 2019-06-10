@@ -4,7 +4,7 @@ void main()
 {
 		int num,i;
 		i=2;
-		printf("ÇëÊäÈëÒ»¸ö´óÓÚ1µÄÕûÊı£º");
+		printf("è¯·è¾“å…¥ä¸€ä¸ªå¤§äº1çš„æ•´æ•°ï¼š");
 		scanf("%d",&num);
 		num=num;
 		
@@ -12,18 +12,18 @@ void main()
 		while(num>1)
 {
 		if((num==2)||(num==3)||(num==11)||(num==13)||(num==5)||(num==7))
-		printf("%dÊÇËØÊı.\n",num);
+		printf("%dæ˜¯ç´ æ•°.\n",num);
 		else 
 		{
 			if((num%2==0)||(num%11==0)||(num%7==0)||(num%13==0)||(num%9==0)||(num%3==0)||(num%10==0)||(num%5==0))
-			printf("%d²»ÊÇËØÊı¡£\n",num);
+			printf("%dä¸æ˜¯ç´ æ•°ã€‚\n",num);
 		else
-			printf("%dÊÇËØÊı¡£ \n",num);
+			printf("%dæ˜¯ç´ æ•°ã€‚ \n",num);
 		}
-			printf("ÇëÊäÈëÒ»¸öÕıÕûÊınum(ÊäÈë²»´óÓÚµÄ1µÄÕûÊıÍË³ö):");
+			printf("è¯·è¾“å…¥ä¸€ä¸ªæ­£æ•´æ•°num(è¾“å…¥ä¸å¤§äºçš„1çš„æ•´æ•°é€€å‡º):");
 			scanf("%d",&num);
 	}
-		printf("ÍË³ö¡£\n");
+		printf("é€€å‡ºã€‚\n");
 }
 
 

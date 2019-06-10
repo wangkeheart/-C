@@ -2,17 +2,17 @@
 int fun(double x[],int n)
 {
 	int j,c=0;
-	double xa=0;// int xa=0; ¸Ä double
+	double xa=0;// int xa=0; æ”¹ double
 	for(j=0;j<n;j++)
 		xa+=x[j]/n;
-	printf("Æ½¾ùÖµÎª%lf\n",xa);//  %f ¸Ä %lf
+	printf("å¹³å‡å€¼ä¸º%lf\n",xa);//  %f æ”¹ %lf
 	for(j=0;j<n;j++)
-		if(x[j]>=xa)//  => ¸Ä >=
+		if(x[j]>=xa)//  => æ”¹ >=
 			c++;
 	return c;
 }
 void main()
 {
 	double x[100]={193.199,195.673,195.757,196.051,196.092,196.596,196.579,196.763};
-	printf("Æ½¾ùÖµÒÔÉÏµÄÊµÊı¸öÊıÎª£º%d\n",fun(x,8));
+	printf("å¹³å‡å€¼ä»¥ä¸Šçš„å®æ•°ä¸ªæ•°ä¸ºï¼š%d\n",fun(x,8));
 }

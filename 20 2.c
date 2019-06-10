@@ -4,7 +4,7 @@ int main()
 {
 	double x;
 	double b;
-	printf("ÇëÊäÈëXµÄÖµ:");
+	printf("è¯·è¾“å…¥Xçš„å€¼:");
 	scanf("%lf",&x);
 	if(x>=0)
 	b=sqrt(x);

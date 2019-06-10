@@ -4,7 +4,7 @@ int main()
 	int c,b;
 	double a,d=0;
 	a=1.1;
-	printf("ÇëÊäÈën£º");
+	printf("è¯·è¾“å…¥nï¼š");
 	scanf("%d",&b);
 	for(c=1;c<=b;c++)
 	{

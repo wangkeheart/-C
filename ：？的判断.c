@@ -4,6 +4,6 @@ int main()
   int a,b;
   printf("please input a and b:\n");
   scanf("%d%d",&a,&b);
-  printf("the output data is %d\n",a<b?b:a);  //:Èç¹û²»Âú×ãÌõ¼şÖ´ĞĞºó±ßµÄ¸³Öµ¡£
+  printf("the output data is %d\n",a<b?b:a);  //:å¦‚æœä¸æ»¡è¶³æ¡ä»¶æ‰§è¡Œåè¾¹çš„èµ‹å€¼ã€‚
   return 0;
 }

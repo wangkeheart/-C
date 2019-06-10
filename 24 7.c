@@ -14,14 +14,14 @@ int main()
 	f=(a/10)%10;
 	g=(a)%10;
 	h=g*1000+f*100+e*10+d;
-	printf("%dÎ»Êı\n",c);
+	printf("%dä½æ•°\n",c);
 	if(c==3)
 	{
-		printf("ÄæĞò:%-4d\n",h/10);
+		printf("é€†åº:%-4d\n",h/10);
 	}
 	else if(c==4)
 	{
-		printf("ÄæĞò:%-4d\n",h);
+		printf("é€†åº:%-4d\n",h);
 	}
 	return 0;
 

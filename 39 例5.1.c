@@ -8,7 +8,7 @@ int main(void)
 	scanf("%d",&n);
 	for(i=1;i<=n;i++)
 		sum=sum+fact(i);
-	printf("1!+2!+¡­+%d!=%f\n",n,sum);
+	printf("1!+2!+â€¦+%d!=%f\n",n,sum);
 	return 0;
 }
 double fact(int n)

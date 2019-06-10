@@ -4,9 +4,9 @@ int main()
 	int num;
 	scanf("%d",&num);
 	if(num%2==0)
-	printf("%d是个偶数",num);
+	printf("%d鏄釜鍋舵暟",num);
 	else
-	printf("%d是个奇数",num);
+	printf("%d鏄釜濂囨暟",num);
 	return 0;
 }
 

@@ -2,14 +2,14 @@
 int main()
 {
 	int a,b,c,d,e,f;
-	printf("请输入鸡的总数:\n");
+	printf("璇疯緭鍏ラ浮鐨勬�绘暟:\n");
 	scanf("%d",&a);
 	c=a*2;
-	printf("请输入兔的总数:\n");
+	printf("璇疯緭鍏ュ厰鐨勬�绘暟:\n");
 	scanf("%d",&b);
 	d=b*4;
 	e=c+d;
 	f=a+b;
-	printf("现有鸡和兔，头有%d,脚有:%d。问鸡兔分别是几只？",f,e);
+	printf("鐜版湁楦″拰鍏旓紝澶存湁%d,鑴氭湁:%d銆傞棶楦″厰鍒嗗埆鏄嚑鍙紵",f,e);
 	return 0;
 }
